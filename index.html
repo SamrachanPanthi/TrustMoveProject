@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trust Move Courier & Cargo | Global Shipping from Nepal</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- HEADER / NAVIGATION -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-earth-americas"></i>
+                <div class="logo-text">
+                    <span class="brand-name">TRUST MOVE</span>
+                    <span class="brand-sub">COURIER & CARGO</span>
+                </div>
+            </a>
+            
+            <nav class="navbar" id="navbar">
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#tracking">Track Shipment</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-right">
+                <a href="#quote" class="btn btn-primary btn-quote">GET A QUOTE</a>
+                <div class="hamburger" id="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1>Your Trusted Partner for Global Courier & Cargo</h1>
+                <p>Fast, secure and reliable international courier and cargo services from Nepal to destinations around the world.</p>
+                <div class="hero-buttons">
+                    <a href="#tracking" class="btn btn-primary">Track Your Shipment</a>
+                    <a href="#quote" class="btn btn-outline">Get a Free Quote</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80" alt="Logistics and Cargo">
+            </div>
+        </div>
+    </section>
+
+    <!-- TRACKING SECTION -->
+    <section id="tracking" class="section tracking-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Track Your Shipment</h2>
+                <p>Enter your tracking number to check the real-time status of your delivery.</p>
+            </div>
+            
+            <div class="tracking-box">
+                <div class="tracking-input-group">
+                    <input type="text" id="trackingInput" placeholder="Enter Tracking Number (e.g., TM-DEMO-001)">
+                    <button id="trackBtn" class="btn btn-primary">Track Now</button>
+                </div>
+                <div class="tracking-hint">
+                    <small>Try demo tracking number: <strong>TM-DEMO-001</strong></small>
+                </div>
+
+                <div id="trackingResult" class="tracking-result hidden">
+                    <!-- Dynamic tracking info loads here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="section services-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Professional Services</h2>
+                <p>Tailored logistics solutions designed to meet your individual and commercial cargo requirements.</p>
+            </div>
+
+            <div class="grid services-grid">
+                <div class="card service-card">
+                    <div class="service-icon"><i class="fa-solid fa-plane-departure"></i></div>
+                    <h3>International Courier</h3>
+                    <p>Fast and safe document and parcel delivery to worldwide destinations with door-to-door options.</p>
+                </div>
+                <div class="card service-card">
+                    <div class="service-icon"><i class="fa-solid fa-box-archive"></i></div>
+                    <h3>Air Cargo</h3>
+                    <p>Cost-effective and reliable air cargo solutions for heavy commercial shipments and bulk freight.</p>
+                </div>
+                <div class="card service-card">
+                    <div class="service-icon"><i class="fa-solid fa-house-chimney"></i></div>
+                    <h3>Door-to-Door Delivery</h3>
+                    <p>Hassle-free shipping handled completely from your doorstep in Nepal to the final recipient overseas.</p>
+                </div>
+                <div class="card service-card">
+                    <div class="service-icon"><i class="fa-solid fa-file-lines"></i></div>
+                    <h3>Document Delivery</h3>
+                    <p>Urgent legal, academic, and business papers delivered securely with priority handling.</p>
+                </div>
+                <div class="card service-card">
+                    <div class="service-icon"><i class="fa-solid fa-warehouse"></i></div>
+                    <h3>Commercial Cargo</h3>
+                    <p>Professional export-import handling, customs clearance assistance, and customized corporate logistics.</p>
+                </div>
+                <div class="card service-card">
+                    <div class="service-icon"><i class="fa-solid fa-gift"></i></div>
+                    <h3>Personal Shipment</h3>
+                    <p>Send gifts, personal belongings, and care packages to family and friends living abroad safely.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+    <section class="section features-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why Choose Trust Move</h2>
+                <p>We pride ourselves on commitment, efficiency, and unwavering reliability.</p>
+            </div>
+
+            <div class="grid features-grid">
+                <div class="feature-item">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <div>
+                        <h4>Reliable Delivery</h4>
+                        <p>Consistent, time-bound execution for every single package we handle.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <i class="fa-solid fa-globe"></i>
+                    <div>
+                        <h4>Global Reach</h4>
+                        <p>Extensive network connecting Nepal seamlessly to major world regions.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <i class="fa-solid fa-box-open"></i>
+                    <div>
+                        <h4>Secure Handling</h4>
+                        <p>Careful packaging, sorting, and transport protocols to protect your items.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <i class="fa-solid fa-handshake"></i>
+                    <div>
+                        <h4>Transparent Service</h4>
+                        <p>Clear pricing policy with zero hidden fees and up-front updates.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <i class="fa-solid fa-headset"></i>
+                    <div>
+                        <h4>Customer Support</h4>
+                        <p>Dedicated local support team ready to assist with all your shipping queries.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <i class="fa-solid fa-tags"></i>
+                    <div>
+                        <h4>Competitive Pricing</h4>
+                        <p>Affordable shipping rates crafted for maximum value and cost-savings.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DESTINATIONS SECTION -->
+    <section id="destinations" class="section destinations-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Global Destinations</h2>
+                <p>We deliver your cargo securely to major countries and regions across the globe.</p>
+            </div>
+
+            <div class="grid destinations-grid">
+                <div class="destination-card"><i class="fa-solid fa-flag-usa"></i><span>USA</span></div>
+                <div class="destination-card"><i class="fa-solid fa-earth-oceania"></i><span>Australia</span></div>
+                <div class="destination-card"><i class="fa-solid fa-earth-asia"></i><span>Japan</span></div>
+                <div class="destination-card"><i class="fa-solid fa-earth-asia"></i><span>South Korea</span></div>
+                <div class="destination-card"><i class="fa-solid fa-landmark"></i><span>United Kingdom</span></div>
+                <div class="destination-card"><i class="fa-solid fa-earth-europe"></i><span>Germany</span></div>
+                <div class="destination-card"><i class="fa-solid fa-earth-europe"></i><span>France</span></div>
+                <div class="destination-card"><i class="fa-solid fa-earth-europe"></i><span>Italy</span></div>
+                <div class="destination-card"><i class="fa-solid fa-snowflake"></i><span>Canada</span></div>
+                <div class="destination-card"><i class="fa-solid fa-plane"></i><span>Other Destinations</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section id="how-it-works" class="section steps-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>How It Works</h2>
+                <p>Simple and straightforward shipping in four easy steps.</p>
+            </div>
+
+            <div class="grid steps-grid">
+                <div class="step-card">
+                    <div class="step-number">01</div>
+                    <h3>Contact Us</h3>
+                    <p>Reach out via phone, email, or visit our branches in Kathmandu to discuss your shipping requirements.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">02</div>
+                    <h3>Get a Quote</h3>
+                    <p>Receive an accurate, transparent cost estimate based on weight, destination, and service type.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">03</div>
+                    <h3>Pickup & Processing</h3>
+                    <p>We pick up your package or accept it at our offices, securely packaging and completing paperwork.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">04</div>
+                    <h3>Delivery</h3>
+                    <p>Your cargo travels securely through our network and gets delivered safely to the destination.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section about-section">
+        <div class="container about-container">
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=80" alt="About Trust Move">
+            </div>
+            <div class="about-content">
+                <h2>About Trust Move Courier & Cargo</h2>
+                <p>Trust Move Courier & Cargo is a Kathmandu-based international courier and cargo service provider dedicated to bridging Nepal with the rest of the world. Operating from our key locations at Mahadevsthan, Koteshwor and Saatghumti, Thamel, we specialize in delivering documents, personal packages, and commercial cargo safely, efficiently, and professionally.</p>
+                <p>Our commitment focuses on customer satisfaction, secure transit management, and clear, transparent communication throughout every step of the shipping process.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- QUOTE FORM SECTION -->
+    <section id="quote" class="section quote-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Request a Free Quote</h2>
+                <p>Fill out the form below and our team will get back to you with competitive pricing.</p>
+            </div>
+
+            <div class="form-container">
+                <form id="quoteForm">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label>Full Name *</label>
+                            <input type="text" id="quoteName" required placeholder="Enter your full name">
+                        </div>
+                        <div class="form-group">
+                            <label>Email *</label>
+                            <input type="email" id="quoteEmail" required placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label>Phone *</label>
+                            <input type="tel" id="quotePhone" required placeholder="Enter your phone number">
+                        </div>
+                        <div class="form-group">
+                            <label>Pickup Location *</label>
+                            <input type="text" id="quotePickup" required placeholder="e.g., Koteshwor, Kathmandu">
+                        </div>
+                        <div class="form-group">
+                            <label>Destination Country *</label>
+                            <input type="text" id="quoteCountry" required placeholder="e.g., USA, Australia">
+                        </div>
+                        <div class="form-group">
+                            <label>Destination City *</label>
+                            <input type="text" id="quoteCity" required placeholder="e.g., New York">
+                        </div>
+                        <div class="form-group">
+                            <label>Shipment Type *</label>
+                            <select id="quoteType" required>
+                                <option value="">Select type</option>
+                                <option value="Document">Document</option>
+                                <option value="Parcel/Gift">Parcel / Gift</option>
+                                <option value="Commercial Cargo">Commercial Cargo</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Approximate Weight *</label>
+                            <input type="text" id="quoteWeight" required placeholder="e.g., 5 kg">
+                        </div>
+                        <div class="form-group">
+                            <label>Number of Packages *</label>
+                            <input type="number" id="quotePackages" required min="1" value="1">
+                        </div>
+                        <div class="form-group">
+                            <label>Preferred Pickup Date *</label>
+                            <input type="date" id="quoteDate" required>
+                        </div>
+                    </div>
+                    <div class="form-group full-width">
+                        <label>Message / Special Instructions</label>
+                        <textarea id="quoteMessage" rows="4" placeholder="Any specific requirements..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">Request a Quote</button>
+                    <div id="quoteSuccess" class="success-message hidden">Thank you! Your quote request has been submitted successfully. We will contact you soon.</div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section id="faq" class="section faq-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Frequently Asked Questions</h2>
+                <p>Find quick answers to common questions about our international shipping services.</p>
+            </div>
+
+            <div class="faq-accordion">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do international shipping rates work?</h3>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Rates depend on the destination country, chargeable weight (actual weight vs. volumetric weight), and the type of shipment (documents vs. commercial cargo). Contact us or submit a quote request for exact pricing.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How can I track my shipment?</h3>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You can easily track your package using our online tracking tool on this website by entering your unique tracking number. For demonstration purposes, you can test it with number TM-DEMO-001.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you offer door-to-door delivery?</h3>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we provide safe door-to-door pickup from your location in Kathmandu and delivery straight to the doorstep of your recipient overseas in major destination countries.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can you ship documents securely?</h3>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely. We handle urgent academic, legal, and business documents with priority handling and secure packaging to ensure they arrive intact and on time.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do I get an accurate price quote?</h3>
+                        <p></p>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You can fill out our online Get a Quote form with your shipment specifications or contact our offices directly via phone or visit our branches in Koteshwor or Thamel.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How can I contact Trust Move Courier & Cargo?</h3>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You can reach us at our branches in Mahadevsthan, Koteshwor and Saatghumti, Thamel, or call us directly at 01-4500711, 9744475840, or 9810966584.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+                <p>Get in touch with our team for immediate assistance or visit our branches.</p>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Branch Offices</h3>
+                    
+                    <div class="location-box">
+                        <h4><i class="fa-solid fa-location-dot"></i> Koteshwor Branch</h4>
+                        <p>Mahadevsthan, Koteshwor, Kathmandu, Nepal</p>
+                    </div>
+
+                    <div class="location-box">
+                        <h4><i class="fa-solid fa-location-dot"></i> Thamel Branch</h4>
+                        <p>Saatghumti, Thamel, Kathmandu, Nepal</p>
+                    </div>
+
+                    <div class="contact-phones">
+                        <h4><i class="fa-solid fa-phone"></i> Phone Numbers</h4>
+                        <p><a href="tel:014500711">01-4500711</a></p>
+                        <p><a href="tel:9744475840">9744475840</a></p>
+                        <p><a href="tel:9810966584">9810966584</a></p>
+                        <div class="call-buttons">
+                            <a href="tel:014500711" class="btn btn-primary call-btn"><i class="fa-solid fa-phone-volume"></i> Call Now (01-4500711)</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-box">
+                    <h3>Send Us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label>Name *</label>
+                            <input type="text" id="contactName" required placeholder="Your name">
+                        </div>
+                        <div class="form-group">
+                            <label>Email *</label>
+                            <input type="email" id="contactEmail" required placeholder="Your email">
+                        </div>
+                        <div class="form-group">
+                            <label>Phone *</label>
+                            <input type="tel" id="contactPhone" required placeholder="Your phone number">
+                        </div>
+                        <div class="form-group">
+                            <label>Subject *</label>
+                            <input type="text" id="contactSubject" required placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <label>Message *</label>
+                            <textarea id="contactMessage" rows="4" required placeholder="Your message..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">Send Message</button>
+                        <div id="contactSuccess" class="success-message hidden">Thank you! Your message has been sent successfully.</div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <div class="logo footer-logo">
+                    <i class="fa-solid fa-earth-americas"></i>
+                    <div class="logo-text">
+                        <span class="brand-name">TRUST MOVE</span>
+                        <span class="brand-sub">COURIER & CARGO</span>
+                    </div>
+                </div>
+                <p class="footer-desc">Your Trusted Partner for Global Courier & Cargo. Secure and reliable international shipping from Nepal.</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#tracking">Track Shipment</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul class="footer-links">
+                    <li><a href="#services">International Courier</a></li>
+                    <li><a href="#services">Air Cargo</a></li>
+                    <li><a href="#services">Door-to-Door Delivery</a></li>
+                    <li><a href="#services">Document Delivery</a></li>
+                    <li><a href="#services">Commercial Cargo</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Contact Info</h4>
+                <p><i class="fa-solid fa-location-dot"></i> Mahadevsthan, Koteshwor, Kathmandu</p>
+                <p><i class="fa-solid fa-location-dot"></i> Saatghumti, Thamel, Kathmandu</p>
+                <p><i class="fa-solid fa-phone"></i> 01-4500711, 9744475840</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Trust Move Courier & Cargo. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+<!-- Supabase -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+<!-- Your website JavaScript -->
+<script src="script.js"></script>
+</body>
+</html>
